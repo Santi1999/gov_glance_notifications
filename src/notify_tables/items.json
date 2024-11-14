@@ -1,0 +1,199 @@
+[
+    {
+        "file": "votes.py",
+        "table": "member_votes",
+        "topic": "legislative",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "congressional_bills_enrolled.py",
+        "table": "congressional_bills_enrolled",
+        "topic": "legislative",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "congressional_bills.py",
+        "table": "congressional_bills",
+        "topic": "legislative",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "congressional_hearings.py",
+        "table": "congressional_hearings",
+        "topic": "legislative",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "public_and_private_laws.py",
+        "table": "public_and_private_laws",
+        "topic": "legislative",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "gdp_updates.py",
+        "table": "gdp",
+        "topic": "economy",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "wage_growth.py",
+        "table": "wage_growth",
+        "topic": "economy",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "inflation_updates.py",
+        "table": "inflation_updates",
+        "topic": "economy",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "bea.py",
+        "table": "bea",
+        "topic": "economy",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "treasury",
+        "topic": "economy",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "federal_reserve.py",
+        "table": "federal_reserve",
+        "topic": "economy",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "white_house.py",
+        "table": "the_white_house",
+        "topic": "executive",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "compilation_of_presidential_documents",
+        "topic": "executive",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "uscourts",
+        "topic": "judicial",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "supreme_court_opinions",
+        "topic": "judicial",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "supreme_court_arguments",
+        "topic": "judicial",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "defense.py",
+        "table": "defense",
+        "topic": "defense",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "eac.py",
+        "table": "election_assistance_commission",
+        "topic": "election",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "fec.py",
+        "table": "federal_election_commission",
+        "topic": "election",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "national_weather_service.py",
+        "table": "national_weather_service_update",
+        "topic": "environment",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "epa.py",
+        "table": "epa",
+        "topic": "environment",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "state.py",
+        "table": "state",
+        "topic": "executive",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "health_human_services.py",
+        "table": "health_and_human_services",
+        "topic": "health",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "cdc.py",
+        "table": "cdc_newsroom",
+        "topic": "health",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "ice.py",
+        "table": "ice",
+        "topic": "economy",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "housing_and_urban_development.py",
+        "table": "housing_and_urban_development",
+        "topic": "executive",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "transportation.py",
+        "table": "transportation",
+        "topic": "executive",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "energy.py",
+        "table": "energy",
+        "topic": "executive",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "homeland_security.py",
+        "table": "homeland_security",
+        "topic": "executive",
+        "schema": "united_states_of_america",
+        "filter_column": "agency",
+        "filter_value": "U.S. Citizenship and Immigration Services"
+    },
+    {
+        "file": "homeland_security.py",
+        "table": "homeland_security",
+        "topic": "executive",
+        "schema": "united_states_of_america",
+        "filter_column": "agency",
+        "filter_value": "U.S. Customs and Border Protection"
+    },
+    {
+        "file": "justice.py",
+        "table": "justice",
+        "topic": "executive",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "science_and_tech.py",
+        "table": "national_science_foundation",
+        "topic": "health",
+        "schema": "united_states_of_america"
+    },
+    {
+        "file": "nasa.py",
+        "table": "nasa",
+        "topic": "science_and_tech",
+        "schema": "united_states_of_america"
+    }
+]
