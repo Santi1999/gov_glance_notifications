@@ -171,6 +171,14 @@
         "filter_value": "U.S. Citizenship and Immigration Services"
     },
     {
+        "file": null,
+        "table": "justice",
+        "topic": "executive",
+        "schema": "united_states_of_america",
+        "filter_column": "agency",
+        "filter_value": "Federal Bureau of Investigation"
+    },
+    {
         "file": "homeland_security.py",
         "table": "homeland_security",
         "topic": "executive",
@@ -193,6 +201,21 @@
     {
         "file": "nasa.py",
         "table": "nasa",
+        "topic": "science_and_tech",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "nasa_jpl",
+        "topic": "science_and_tech",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "nist",
+        "topic": "science_and_tech",
+        "schema": "united_states_of_america"
+    },
+    {
+        "table": "goa_science_and_technology",
         "topic": "science_and_tech",
         "schema": "united_states_of_america"
     }
