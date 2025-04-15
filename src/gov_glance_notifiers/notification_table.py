@@ -45,7 +45,7 @@ def send_notification_(json_payload):
                 
                 notify = SendFcmMessage(
                     length_of_values=len(notification_items), 
-                    notification_title=f'{topic.upper()} NEWS', 
+                    notification_title=notification_items[0]['collection_name'], 
                     body=notification_items[0]['title'],
                     image=notification_items[0]['image_url'] if notification_items[0]['image_url'] else 'None' or 'null', 
                     topic=push_topic, 
@@ -56,7 +56,7 @@ def send_notification_(json_payload):
             elif len(notification_items) > 1:
                 notify = SendFcmMessage(
                     length_of_values=len(notification_items), 
-                    notification_title=f'{topic.upper()} NEWS', 
+                    notification_title=notification_items[0]['collection_name'], 
                     body=notification_items[0]['title'],
                     image=notification_items[0]['image_url'] if notification_items[0]['image_url'] else 'None' or 'null', 
                     topic=push_topic, 
