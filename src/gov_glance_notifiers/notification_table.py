@@ -11,7 +11,11 @@ def send_notification_(json_payload):
         for item in json_payload:
                 # We have two item in the hashmap. Topic and results.
             topic = item['topic']
-            notification_items = item['results']
+            '''
+            Here we need to shorten the length of the results so the message isnt too big to send to the firebase app.
+            
+            '''
+            notification_items = item['results'][:2]
 
             # we need to clean results to enure that there are no empty values.
             cleaned = []
@@ -32,7 +36,8 @@ def send_notification_(json_payload):
             notification_items = cleaned
             item['results'] = json.dumps(notification_items)
             # initialize the notification push topic
-            push_topic = topic.lower()+"News"
+            # push_topic = topic.lower()+"News"
+            push_topic = 'gg2TestNoti'
             # Initialize the notification body
             print(len(notification_items))
             if len(notification_items) == 1:
@@ -72,7 +77,7 @@ if __name__ == "__main__":
     '''Here we are going to perform operations on the database'''
 # else:
     init_gov_glance_api = RequestAPI()
-    data = init_gov_glance_api.request_notifications()
+    data = init_gov_glance_api.request_notifications()[:1]
     print(data)
     # data = []
 

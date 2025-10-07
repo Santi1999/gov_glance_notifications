@@ -30,4 +30,4 @@ for item in data['results'][:1]:
                         'schema': 'united_states_of_america', 
                         'item_id': str(bill_id)}
                     print(notification_message)
-                    SendNotification().notification_push(notifcation_title=notification_title, body=notification_message,data=meta_data_notif)
+                    # SendNotification().notification_push(notifcation_title=notification_title, body=notification_message,data=meta_data_notif)
